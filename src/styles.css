@@ -1,0 +1,64 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+body {
+    font-size: 13px !important;
+    background-color: #000000 !important;
+}
+
+.btn {
+    font-size: 13px !important;
+}
+
+
+/* .layout {
+    background-color: #131619 !important;
+    margin: 0px 30px !important;
+    height: 100vh;
+} */
+
+
+.container-vh{
+    height: 92vh !important;
+}
+
+.custom-input {
+    position: relative;
+}
+
+.custom-input label {
+    font-size: 12px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.custom-input select {
+    background-position: 90% 75%;
+}
+
+.custom-input input,
+.custom-input select {
+    padding: 20px 15px 8px 15px;
+    color: white;
+    font-size: 13px;
+    background-color: black;
+}
+
+.custom-input input::placeholder,
+.custom-input select::placeholder,
+.custom-input input:focus,
+.custom-input select:focus {
+    color: white;
+    font-size: 13px;
+}
+
+.bg-none {
+    background: none !important;
+    background-color: transparent !important;
+}
+
+.signup-box {
+    max-width: 400px !important;
+}
